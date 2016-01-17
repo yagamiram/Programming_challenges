@@ -13,6 +13,17 @@ Recursive case:
 2. Else # odd case
     divide n-1/2 and call recursively and
     at the end multiply m*rec_call*rec_call
+    
+complexity is O(log n)
+
+More elegant approach (C++):
+double pow(double a, int n) {
+     if(n == 0) return 1;
+     if(n == 1) return a;
+     double t = pow(a, n/2);
+     return t * t * pow(a, n%2);
+}
+
 '''
 
 def power(m, n):
