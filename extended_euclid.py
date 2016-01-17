@@ -3,6 +3,9 @@
 '''
 How this works ?
 https://web.stanford.edu/~dntse/classes/cs70_fall09/cs70_fall09_5.pdf
+
+to  find modular inverse:
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm#Modular_inverse
 '''
 
 def GCD(k, m):
