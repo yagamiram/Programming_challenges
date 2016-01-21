@@ -9,6 +9,7 @@ This is equivalent to:
 
 def ccw(A,B,C):
     return (C.y-A.y)*(B.x-A.x) > (B.y-A.y)*(C.x-A.x)
+
 You might be wondering how does this help? Think of two line segments AB, and CD. 
 These intersect if and only if points A and B are separated by segment CD and points C and D are separated by segment AB. 
 If points A and B are separated by segment CD then ACD and BCD 
