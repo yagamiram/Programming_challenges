@@ -1,13 +1,19 @@
 #!/usr/bin/python
 '''
 Notes:
-The solution involves determining if three points are listed in a counterclockwise order. So say you have three points A, B and C. If the slope of the line AB is less than the slope of the line AC then the three points are listed in a counterclockwise order.
+The solution involves determining if three points are listed in a counterclockwise order. 
+So say you have three points A, B and C. 
+If the slope of the line AB is less than the slope of the line AC then the three points are listed in a counterclockwise order.
 
 This is equivalent to:
 
 def ccw(A,B,C):
     return (C.y-A.y)*(B.x-A.x) > (B.y-A.y)*(C.x-A.x)
-You might be wondering how does this help? Think of two line segments AB, and CD. These intersect if and only if points A and B are separated by segment CD and points C and D are separated by segment AB. If points A and B are separated by segment CD then ACD and BCD should have opposite orientation meaning either ACD or BCD is counterclockwise but not both. Therefore calculating if two line segments AB and CD intersect is as follows:
+You might be wondering how does this help? Think of two line segments AB, and CD. 
+These intersect if and only if points A and B are separated by segment CD and points C and D are separated by segment AB. 
+If points A and B are separated by segment CD then ACD and BCD 
+should have opposite orientation meaning either ACD or BCD is counterclockwise but not both. 
+Therefore calculating if two line segments AB and CD intersect is as follows:
 
 def intersect(A,B,C,D):
         return ccw(A,C,D) != ccw(B,C,D) and ccw(A,B,C) != ccw(A,B,D)
