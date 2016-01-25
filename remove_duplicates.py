@@ -40,6 +40,7 @@ cross checked by sorting the newly pdated list by sorting ending time and locati
 import user41_zuRLQSO1pM4ubyP_2 as test_case
 
 '''
+
 Generate the string
 '''
 string_list = list()
