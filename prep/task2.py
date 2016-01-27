@@ -1,3 +1,4 @@
+# http://www.codeskulptor.org/#user41_xBRejF3tt4_0.py
 import user41_SX2EPRxekJ_9 as task1
 import random
 print "new records"
