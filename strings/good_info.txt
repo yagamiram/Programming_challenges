@@ -1,0 +1,18 @@
+Strings: 
+
+One important area of algorithm design is the study of algorithms for character strings. There are
+a number of important problems here. Among the most important has to do with efficiently searching
+for a substring or generally a pattern in large piece of text. (This is what text editors and functions
+like ”grep” do when you perform a search.) In many instances you do not want to find a piece of text
+exactly, but rather something that is ”similar”. This arises for example in genetics research. Genetic
+codes are stored as long DNA molecules. The DNA strands can be broken down into a long sequences
+each of which is one of four basic types: C, G, T, A.
+
+
+But exact matches rarely occur in biology because of small changes in DNA replication. Exact substring
+search will only find exact matches. For this reason, it is of interest to compute similarities
+between strings that do not match exactly. The method of string similarities should be insensitive to
+random insertions and deletions of characters from some originating string. There are a number of
+measures of similarity in strings. The first is the edit distance, that is, the minimum number of single
+character insertions, deletions, or transpositions necessary to convert one string into another. The other,
+which we will study today, is that of determining the length of the longest common subsequence.
