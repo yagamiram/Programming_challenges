@@ -16,3 +16,6 @@ random insertions and deletions of characters from some originating string. Ther
 measures of similarity in strings. The first is the edit distance, that is, the minimum number of single
 character insertions, deletions, or transpositions necessary to convert one string into another. The other,
 which we will study today, is that of determining the length of the longest common subsequence.
+
+
+Awesome explanation on DP for LCS : http://www.cs.umd.edu/~meesh/351/mount/lectures/lect25-longest-common-subseq.pdf
