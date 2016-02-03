@@ -7,8 +7,12 @@ If you pick the coin, the value decreases = min_coins(coins, low+1, high, value-
 If you don't pick the coin, the value remains as it is = min_coins(coins, low+1, high, value)
 '''
 def min_coins(coins, low, high, value):
-    if len(coins) == 0 or value <= 0:
+    if len(coins) == 0:
+        return -1
+    if value == 0:
         return 0
+    if value < 0:
+        return float('inf')
     if low > high:
         return float('inf')
     else:
@@ -19,5 +23,5 @@ def min_coins(coins, low, high, value):
         without_coin = min_coins(coins, low+1, high, value)
         #print with_coin, without_coin
         return min(with_coin, without_coin)
-coins = [1,2,1,1,2,3,2,1,3,4,5]
-print min_coins(coins, 0, len(coins)-1, 15)
+coins = [1,3,5]
+print min_coins(coins, 0, len(coins)-1, 9)
