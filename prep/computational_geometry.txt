@@ -1,0 +1,37 @@
+'''
+Segment Intersection
+'''
+
+Check if two line segements intersect to each other or not ?
+
+How ?
+Given : (A,B) and (C,D)
+              | C
+              |
+    ----------|-------------                           
+    A         |            B
+              | D
+1.  Check the area.
+
+If the (area of ABC is positive and area of ABD is negative) AND (area of CDB is positive and CDA is negative) then the line segments 
+intersect.
+
+What if ?
+       C
+       |
+       |
+-------|-----------
+A      D         B
+
+This is also intersection of two line segments. But they cannot be found from the above formula.
+
+
+So what to do ?
+
+If the area of ABD is collinear and if D lies in between A and B then the lin segments intersect.
+
+ALL OTHER CASES DO NOT INTERSECT. 
+
+Approach 2:
+
+Orientation check geek for geeks
