@@ -27,6 +27,34 @@ d = gcd(y, x mod y) = ay + (x mod y)b
 this become 
 
 d = bx + (a-(x/y)b)y
+
+what is modulo inverse?
+modular multiplicative inverse of an integer a modulo m is an integer x such that
+
+ax = 1 mod m (congruency)
+Example:
+Find modulo multiplcative inverse of 3 modulo 11.
+
+x = 1/3 modulo 11
+
+you have to find x here.
+3x = 1 mod 11
+if x = 4 then 3x = 12 
+so 12 mod 11 = 1 = 1 mod 11
+
+so x = 4
+
+This can be found using extended euclid
+If the extended euclid returns 1 then modulo inverse of an integer is x % m
+Find the modulo inverse of 'a'
+
+def modinv(a, m):
+    gcd, x, y = egcd(a, m)
+    if gcd != 1:
+        return None  # modular inverse does not exist
+    else:
+        return x % m
+
 '''
 
 def GCD(k, m):
