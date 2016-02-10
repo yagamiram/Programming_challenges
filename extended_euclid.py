@@ -8,7 +8,8 @@ to  find modular inverse:
 https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Extended_Euclidean_algorithm#Modular_inverse
 
 What is extended euclid's algorithm?
-Extended Euclidean algorithm is an extension to the Euclidean algorithm, which computes, besides the greatest common divisor of integers a and b, the coefficients of Bézout's identity, that is integers x and y such that
+Extended Euclidean algorithm is an extension to the Euclidean algorithm, which computes, 
+besides the greatest common divisor of integers a and b, the coefficients of Bézout's identity, that is integers x and y such that
 
 ax + by = gcd(a, b).
 '''
