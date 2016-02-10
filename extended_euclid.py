@@ -12,6 +12,21 @@ Extended Euclidean algorithm is an extension to the Euclidean algorithm, which c
 besides the greatest common divisor of integers a and b, the coefficients of Bézout's identity, that is integers x and y such that
 
 ax + by = gcd(a, b).
+
+How to find x and y values?
+algorithm extended-gcd(x,y)
+    if y = 0 then return(x, 1, 0)
+    else
+        (d, a, b) := extended-gcd(y, x mod y)
+        return((d, b, a - (x div y) * b))
+How it works?
+d = gcd(y, x mod y)
+so 
+d = gcd(y, x mod y) = ay + (x mod y)b 
+
+this become 
+
+d = bx + (a-(x/y)b)y
 '''
 
 def GCD(k, m):
