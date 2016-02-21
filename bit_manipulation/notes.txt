@@ -2,3 +2,4 @@ Questions:
 
 Find the number of O's in the binary representation of a number ?
 Find if he ith bit is set in the binary respresentation of a number using right shift operator ?
+Generate all possible subsets of a number using bit manipulation.
