@@ -1,1 +1,3 @@
+Questions:
 
+Find the number of O's in the binary representation of a number ?
