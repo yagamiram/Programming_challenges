@@ -16,3 +16,9 @@ Find if he ith bit is set in the binary respresentation of a number using right 
 Generate all possible subsets of a number using bit manipulation.
 Find the leftmost bit of the binary representation of a number.
 Check if you can use bit manipulation with dynamic programming (vice versa).
+Check if only one bit is set in the integer.
+
+Notes:
+How to check if only one bit set into the integer ?
+Ans: subtract 1 from the integer and do AND operation. If the result is 0 then one bit set.
+     (X & (X-1)) == 0 then one bit is only set in X
