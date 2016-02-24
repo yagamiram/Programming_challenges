@@ -7,7 +7,9 @@ Awesome explanation on bit manipulation:
 https://www.topcoder.com/community/data-science/data-science-tutorials/a-bit-of-fun-fun-with-bits/
 Bit Hacks:
 http://graphics.stanford.edu/~seander/bithacks.html
-
+Digits representation in cpmputer programming :
+https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/
+https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Data/toBaseK.html  [Simple method to convert from one base to another base]
 
 Questions:
 
