@@ -1,2 +1,5 @@
 Very nice explanation on how to find median from a stream of data
 http://www.ardendertat.com/2011/11/03/programming-interview-questions-13-median-of-integer-stream/
+
+List of 28  DS and algos problems:
+http://www.ardendertat.com/2012/01/09/programming-interview-questions/
