@@ -1,2 +1,6 @@
-Best lijnk : [very hard to solve]
+Best link : [very hard to solve]
 http://regex.alf.nu/
+http://regexone.com/
+https://regexcrossword.com/
+https://changelog.com/regular-expressions-without-fear/
+http://expressions.wingtiplabs.com/
